@@ -2,7 +2,7 @@
   import { defineComponent, ref } from 'vue'
   export default defineComponent({
     setup() {
-      const appTheme = ref('light' as string)
+      const appTheme = ref('dark' as string)
 
       function toggle() {
         // switch modes
